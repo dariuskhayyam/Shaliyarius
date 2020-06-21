@@ -60,7 +60,7 @@ main{
 
 .anniBody span:hover{
     background-color: #800000;
-    widows: 100%;
+    widows: cover;
     background-size: cover;
     color: white;
     transform: scaleY(1.2);
