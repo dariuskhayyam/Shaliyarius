@@ -36,7 +36,7 @@ main{
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     display: inline-flexbox;
     text-align: center;
     color: white;
@@ -76,7 +76,7 @@ main{
 
 #oneMonthMessage{
     width: 70%;
-    background-color: chartreuse;
+    background-color: linear-gradient(45deg, aqua, yellow);
     border: 0.1rem solid black;
     margin:3em;
 }
