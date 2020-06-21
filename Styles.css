@@ -75,7 +75,7 @@ main{
 
 #oneMonthMessage{
     width: 70%;
-    background-color: chartreuse;
+    background-color: linear-gradient(45deg, aqua, rgb(2, 6, 43));
     border: 0.1rem solid black;
     margin:3em;
 }
