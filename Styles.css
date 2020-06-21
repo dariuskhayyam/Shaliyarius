@@ -40,7 +40,7 @@ main{
     display: inline-flexbox;
     text-align: center;
     color: white;
-    padding-top: 10em;
+    padding-top: 1em;
     padding-bottom: 10em;
 }
 
@@ -142,3 +142,25 @@ main{
     margin:3em;
     justify-self: center;   
 }
+
+.wrapper{
+    margin: 0px;
+    display: flexbox;
+}
+
+.wrapper div{
+    background-color: grey;
+    justify-self: center;
+}
+
+.wrapper div img{
+    height: 50%;
+    width: 90%;
+}
+
+main h1{
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+}
+
