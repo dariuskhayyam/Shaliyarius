@@ -36,7 +36,7 @@ main{
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     display: inline-flexbox;
     text-align: center;
     color: white;
@@ -60,7 +60,6 @@ main{
 
 .anniBody span:hover{
     background-color: #800000;
-    widows: cover;
     background-size: cover;
     color: white;
     transform: scaleY(1.2);
@@ -76,7 +75,7 @@ main{
 
 #oneMonthMessage{
     width: 70%;
-    background-color: linear-gradient(45deg, aqua, yellow);
+    background-color: chartreuse;
     border: 0.1rem solid black;
     margin:3em;
 }
