@@ -2,6 +2,15 @@ body{
     margin: 0px;
 }
 
+footer{
+    background-color: #32527b ;
+    color: grey;
+    padding: 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
 nav{
     display:flex;
     justify-content: space-evenly;
@@ -35,3 +44,60 @@ nav a:hover{
     padding-bottom: 10em;
 }
 
+.anniBody span{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    border: 0.001rem solid black;
+
+}
+
+.anniBody a{
+    text-decoration: none;
+    color:black;
+}
+
+.anniBody span:hover{
+    background-color: #800000;
+    widows: 100%;
+    background-size: cover;
+    color: white;
+    transform: scaleY(1.2);
+    transition-duration: 1s;
+}
+
+#oneMain{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#oneMonthMessage{
+    width: 70%;
+    background-color: chartreuse;
+    border: 0.1rem solid black;
+    margin:3em;
+}
+
+#firstVN{
+    display: flex;
+    align-self: center;
+}
+
+#audio1{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    border: 0.1rem solid black;
+}
+
+#audio2{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    border: 0.1rem solid black;
+}
