@@ -101,3 +101,44 @@ nav a:hover{
     background-color: yellow;
     border: 0.1rem solid black;
 }
+
+#twoMonth{
+    width: 70%;
+    background-image:linear-gradient(-45deg, red, pink);
+    border: 0.1rem solid black;
+    margin:3em;
+}
+
+#threeMonth{
+    width: 70%;
+    background-image:linear-gradient(-45deg, gold, silver);
+    border: 0.1rem solid black;
+    margin:3em;
+}
+
+#threeMonthS{
+    width: 70%;
+    background-image:linear-gradient(-45deg, blue, green);
+    border: 0.1rem solid black;
+    margin:3em;   
+}
+
+#fourMonMain{
+    display: flexbox;
+}
+
+#fourMonth{
+    width: 70%;
+    background-image:linear-gradient(-45deg, yellow, pink);
+    border: 0.1rem solid black;
+    margin:3em;
+    justify-self: center;  
+}
+
+#fourMonthD{
+    width: 70%;
+    background-image:linear-gradient(-45deg, #8e7618, green);
+    border: 0.1rem solid black;
+    margin:3em;
+    justify-self: center;   
+}
