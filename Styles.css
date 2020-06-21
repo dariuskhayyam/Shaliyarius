@@ -30,7 +30,7 @@ nav a:hover{
     text-decoration: underline; 
 }
 
-.indexBody{
+main{
     margin: 0px;
     background-image: url("dance.jpg");
     height: 100%;
@@ -49,13 +49,13 @@ nav a:hover{
     padding: 2rem;
     display: flex;
     justify-content: center;
-    border: 0.001rem solid black;
+    border: 0.001rem solid white;
 
 }
 
 .anniBody a{
     text-decoration: none;
-    color:black;
+    color:white;
 }
 
 .anniBody span:hover{
