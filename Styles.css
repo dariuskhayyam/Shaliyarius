@@ -1,5 +1,6 @@
-body{
+body, html{
     margin: 0px;
+    height: 100%;
 }
 
 footer{
@@ -42,6 +43,10 @@ main{
     color: white;
     padding-top: 1em;
     padding-bottom: 10em;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .anniBody span{
@@ -137,6 +142,20 @@ main{
 #fourMonthD{
     width: 70%;
     background-image:linear-gradient(-45deg, #8e7618, green);
+    border: 0.1rem solid black;
+    margin:3em;
+    justify-self: center;   
+}
+
+#fiveMonMain{
+    display: flexbox;
+}
+
+#fiveMonthD{
+    display: flex;
+    text-align: center;
+    width: 70%;
+    background-image:linear-gradient(-45deg, #c70e99, rgb(14, 238, 219));
     border: 0.1rem solid black;
     margin:3em;
     justify-self: center;   
